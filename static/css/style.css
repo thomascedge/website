@@ -1,0 +1,31 @@
+/* HTML ELEMENTS */
+body {
+    background-color: #245438;
+    padding: 100px;
+}
+
+p {
+    font-family: 'Questrial', sans-serif;
+    color: #FFFAFA;
+    font-size: 72pt;
+}
+
+a:link,
+a:hover,
+a:visited,
+a:active {
+    font-size: 24pt;
+    color: #FFFAFA;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #456e56;
+}
+
+div,
+img {
+    magin: 0 auto;
+    position: fixed;
+    border: 10px solid #FFFAFA;
+}
