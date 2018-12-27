@@ -11,7 +11,7 @@
     a:hover,
     a:visited,
     a:active {
-        font-size: 24pt;
+        font-size: 72pt;
     }
 }
 
@@ -28,7 +28,7 @@
     a:hover,
     a:visited,
     a:active {
-        font-size: 14pt;
+        font-size: 32pt;
     }
 }
 
@@ -45,6 +45,6 @@
     a:hover,
     a:visited,
     a:active {
-        font-size: 12pt;
+        font-size: 32pt;
     }
 }
