@@ -9,6 +9,7 @@ var underline = $("u"),
     turing = $("<img src='media/turing.png' alt='turing test.' class='overlay' style='width:20%; height:auto;'>"),
     fashion = $("<img src='media/balenciaga.png' alt='balenciaga.' class='overlay'>"),
     veggie = $("<img src='media/veggies.png' alt='veggies.' class='overlay' style='width:20%; height:auto;'>"),
+    cat = $("<img src='media/cat.png' alt='cat.' class='overlay' style='width:20%; height:auto;'>"),
     orange = $("<img src='media/juiced-oranges.png' alt='juiced-oranges.' class='overlay' style='width:20%; height:auto;'>"),
     follow = $("<img src='media/follow.png' alt='follow.' class='overlay' style='width:20%; height:auto;'>"),
     prof = $("<img src='media/professional.png' alt='professor x.' class='overlay' style='width:30%; height:auto;'>");
@@ -32,6 +33,8 @@ underline.mouseenter(function (event){
         center_box.replaceWith(fashion);
     } if(target.is("#veggie")){
         center_box.replaceWith(veggie);
+    } if(target.is("#cat")){
+        center_box.replaceWith(cat);
     } if(target.is("#orange")){
         center_box.replaceWith(orange);
     } if(target.is("#follow")){
@@ -60,6 +63,8 @@ underline.mouseleave(function (event){
         fashion.replaceWith(center_box);
     } if(target.is("#veggie")){
         veggie.replaceWith(center_box);
+    } if(target.is("#cat")){
+        cat.replaceWith(center_box);
     } if(target.is("#orange")){
         orange.replaceWith(center_box);
     } if(target.is("#follow")){
