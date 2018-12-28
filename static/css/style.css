@@ -29,3 +29,13 @@ img {
     position: fixed;
     border: 10px solid #FFFAFA;
 }
+
+div {
+    display: none;
+}
+
+/* PERSONAL ELEMENTS */
+ion-icon {
+  font-size: 72px;
+  color: #ffffff;
+}
