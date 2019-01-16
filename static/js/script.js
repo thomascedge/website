@@ -13,6 +13,7 @@ var underline = $("u"),
     orange = $("<img src='media/juiced-oranges.png' alt='juiced-oranges.' class='overlay' style='width:20%; height:auto;'>"),
     follow = $("<img src='media/follow.png' alt='follow.' class='overlay' style='width:20%; height:auto;'>"),
     prof = $("<img src='media/professional.png' alt='professor x.' class='overlay' style='width:30%; height:auto;'>");
+    frank = $("<img src='media/frank.png' alt='frank.' class='overlay' style='width:20%; height:auto;'>");
 
 underline.mouseenter(function (event){
     var target = $(event.target);
@@ -41,6 +42,8 @@ underline.mouseenter(function (event){
         center_box.replaceWith(follow);
     } if(target.is("#prof")){
         center_box.replaceWith(prof);
+    } if(target.is("#frank")){
+        center_box.replaceWith(frank);
     }
 });
 
@@ -71,6 +74,8 @@ underline.mouseleave(function (event){
         follow.replaceWith(center_box);
     } if(target.is("#prof")){
         prof.replaceWith(center_box);
+    } if(target.is("#frank")){
+        frank.replaceWith(center_box);
     }
 });
 
