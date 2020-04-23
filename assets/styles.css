@@ -1,37 +1,35 @@
-/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
-
 @-webkit-keyframes rotation {
     0% {
         -webkit-transform: rotate(0deg);
-        transform: rotate(0deg)
+        transform: rotate(0deg);
     }
 
     to {
         -webkit-transform: rotate(359deg);
-        transform: rotate(359deg)
+        transform: rotate(359deg);
     }
 }
 
 @keyframes rotation {
     0% {
         -webkit-transform: rotate(0deg);
-        transform: rotate(0deg)
+        transform: rotate(0deg);
     }
 
     to {
         -webkit-transform: rotate(359deg);
-        transform: rotate(359deg)
+        transform: rotate(359deg);
     }
 }
 
-.jumbotron,body {
-    background-color: #000
+body {
+    background-color: #000!important;
 }
 
 p {
     font: 18px 'IBM Plex Mono',monospace;
-    color: #fff;
-    text-transform: uppercase
+    color: #0000ff;
+    text-transform: uppercase;
 }
 
 #logo {
@@ -41,23 +39,26 @@ p {
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
     -webkit-animation: rotation 4s infinite linear;
-    animation: rotation 4s infinite linear
+    animation: rotation 4s infinite linear;
 }
 
 #logo-div {
-    border-radius: 50%
+    border-radius: 50%;
 }
 
 .jumbotron {
     height: 100vh;
-    width: 100%
+    width: 100%;
+    background-color: #000!important;
 }
 
 .container {
-    height: 100%
+    height: 100%;
+    background-color: #000!important;
 }
 
 .p-2 {
     margin: 32px;
-    padding: 0!important
+    padding: 0!important;
+
 }
