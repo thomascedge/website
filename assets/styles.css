@@ -22,6 +22,11 @@
     }
 }
 
+
+body {
+    background-color: #000!important;   
+}
+
 p {
     font: 18px 'IBM Plex Mono',monospace;
     color: #0000ff;
@@ -45,7 +50,7 @@ p {
 .jumbotron {
     height: 100vh;
     width: 100%;
-    background-color: #fff!important;
+    background-color: #000!important;
 }
 
 .container {
