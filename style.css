@@ -1,0 +1,32 @@
+:root {
+    --green: #47e403;
+    --yellow: #ffe922;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--green) !important;
+    background-image: url('assets/images/background_face.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    font-family: 'new-spirit-condensed', serif;
+    font-weight: 300;
+}
+
+p, a {
+    color: white;
+    transform: scale(1, 150%);
+}
+
+p {
+    font-size: 12pt;
+}
+
+a {
+    font-size: 24pt;
+    text-decoration: none; 
+}
+
