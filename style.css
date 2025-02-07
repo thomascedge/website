@@ -10,23 +10,65 @@ body {
     background-image: url('assets/images/background_face.jpg');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-
-    font-family: 'new-spirit-condensed', serif;
-    font-weight: 300;
+    background-repeat: no-repeat;    
+    overflow: hidden;
 }
 
 p, a {
+    font-family: 'new-spirit-condensed', serif;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+    transform: scale(1, 150%);
+    font-size: 12pt;
+}
+
+#about {
+    margin-top: 10%;
+    width: 55%
+}
+
+#about p {
+    line-height: 1;
+}
+
+#hire_me {
+    margin: 5% 0;
+}
+
+#content {
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+}
+
+#links a {
+    font-size: 24pt;
+    text-decoration: none; 
     color: white;
     transform: scale(1, 150%);
 }
 
-p {
-    font-size: 12pt;
-}
-
-a {
-    font-size: 24pt;
+#about a {
     text-decoration: none; 
+    color: white;
 }
 
+#links a:hover,
+#links a:active ,
+#about a:hover,
+#about a:active {
+    color: var(--yellow);
+    font-style: italic;
+}
+
+#hire_me img {
+    height: 20%;
+}
+
+ #footer img {
+    height: 5%;
+    position: absolute;
+    bottom: 10;
+ }
+ 
