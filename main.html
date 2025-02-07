@@ -6,9 +6,12 @@
 
 <html>
     <head>
+        <meta charset = "utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <title>Call 1-800-Hire-Thomas Today!</title>
 
-        <link href="style.css" rel="stylesheet">
+        <link href="static/css/style.css" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
         <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
@@ -20,7 +23,9 @@
     </head>
 
     <body>
+        <picture-show></picture-show>
         <div class="container" id="content">
+
             <div id="main-content">
                 <div class="container" id="about">
                     <p>
@@ -31,9 +36,9 @@
                         <a href="https://app.thestorygraph.com/profile/thomascedge" target="_blank">delicious poetry, Olga Ravn, queer theory</a>, 
                         <a href="https://letterboxd.com/thomascedge/" target="_blank">Jackie's Back, space, and Being John Malkovich</a>, 
                         The French Smash at The Loyalist, 
-                        <a>stupid internet memes</a>, 
+                        <pic-show id="meme">stupid internet memes</pic-show>, 
                         cinnamon tea, and 
-                        <a>their cats</a>.
+                        <pic-show id="cat">their cats</pic-show>.
                     </p>
                 </div>
 
@@ -66,5 +71,7 @@
 
         </div>
         
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script type="text/javascript" src="static/js/script.js"></script>
     </body>
 </html>

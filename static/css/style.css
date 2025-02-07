@@ -1,0 +1,95 @@
+:root {
+    --green: #47e403;
+    --yellow: #ffe922;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--green) !important;
+    background-image: url('/assets/images/background_face.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;    
+    overflow: hidden;
+}
+
+p, a {
+    font-family: 'new-spirit-condensed', serif;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+    transform: scale(1, 150%);
+    font-size: 12pt;
+}
+
+pic-show:hover {
+    color: var(--yellow);
+    font-style: italic;
+}
+
+#picture-show,
+#picture-show img,
+#picture-show video {
+    margin: 0 auto;
+    width:20%; 
+    height:auto;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    border: 10px solid white;
+}
+
+#picture-show {
+    display: none;
+}
+
+#about {
+    margin-top: 10%;
+    width: 55%
+}
+
+#about p {
+    line-height: 1;
+}
+
+#hire_me {
+    margin: 5% 0;
+}
+
+#content {
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+}
+
+#links a {
+    font-size: 24pt;
+    text-decoration: none; 
+    color: white;
+    transform: scale(1, 150%);
+}
+
+#about a {
+    text-decoration: none; 
+    color: white;
+}
+
+#links a:hover,
+#links a:active ,
+#about a:hover,
+#about a:active {
+    color: var(--yellow);
+    font-style: italic;
+}
+
+#hire_me img {
+    height: 20%;
+}
+
+ #footer img {
+    height: 5%;
+    position: absolute;
+    bottom: 10;
+ }
+ 
