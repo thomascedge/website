@@ -28,19 +28,14 @@ pic-show:hover {
     font-style: italic;
 }
 
-#picture-show,
-#picture-show img,
-#picture-show video {
+picture-show,
+picture-show img,
+picture-show video {
     margin: 0 auto;
-    width:20%; 
-    height:auto;
-    position: absolute;
-    left: 10%;
-    top: 10%;
-    border: 10px solid white;
+    position: fixed;
 }
 
-#picture-show {
+picture-show {
     display: none;
 }
 
