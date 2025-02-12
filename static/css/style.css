@@ -82,9 +82,14 @@ picture-show {
     height: 20%;
 }
 
- #footer img {
+#footer {
+    display: flex;
+    justify-content: center;
+}
+
+#footer img {
     height: 5%;
-    position: absolute;
+    position: fixed;
     bottom: 10;
  }
  
